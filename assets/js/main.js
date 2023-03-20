@@ -427,12 +427,16 @@
     $(this).addClass("active"); 
     if($(".dark-theme").hasClass('active')){
         $("html").attr('color-theme', 'dark');
+        $("body").removeClass("white-version");
     }else if($(".light-theme").hasClass('active')){
         $("html").attr('color-theme', 'light');
+        $("body").addClass("white-version");
     }else if($(".blue-theme").hasClass('active')){
         $("html").attr('color-theme', 'blue');
+        $("body").removeClass("white-version");
     }else{
         $("html").attr('color-theme', 'dark');
+        $("body").removeClass("white-version");
     }  
 })
 

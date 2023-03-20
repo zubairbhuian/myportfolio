@@ -20204,6 +20204,7 @@ body.white-version {
   padding: 16px 17px;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
+  cursor:pointer;
 }
 .my-color-theme .there-items {
   width: 25px;
