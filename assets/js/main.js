@@ -415,10 +415,6 @@
         awsActivation:function(e){
             AOS.init();
         },
-
-         
-       
-
     }
     imJs.m();
  // ! add js in the top
