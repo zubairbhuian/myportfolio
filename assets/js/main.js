@@ -433,7 +433,7 @@
         $("body").addClass("white-version");
     }else if($(".blue-theme").hasClass('active')){
         $("html").attr('color-theme', 'blue');
-        $("body").removeClass("white-version");
+        $("body").addClass("white-version");
     }else{
         $("html").attr('color-theme', 'dark');
         $("body").removeClass("white-version");
