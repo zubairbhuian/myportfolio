@@ -1,0 +1,23 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubairbhuian/myportfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zubairbhuian/myportfolio/issues"
+  },
+  "homepage": "https://github.com/zubairbhuian/myportfolio#readme",
+  "dependencies": {
+    "jquery": "^3.6.4"
+  }
+}
