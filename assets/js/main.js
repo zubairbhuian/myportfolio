@@ -435,6 +435,40 @@
         $("body").removeClass("white-version");
     }  
 })
+ $(".rn-portfolio").click(function(){
+    // Get images
+    var imgSrc= $(this).find("img").attr('src');
+    $('#portfolioModal').find(".modal-img").attr("src", imgSrc);
+    // Get App Type
+    var appType= $(this).find(".category-list").children().text();
+    $('.molal-app-featured').text("Featured - "+appType);
+    // Get Title
+    var appTitle= $(this).find(".title").text();
+    $('#portfolioModal').find(".title").text(appTitle);
+    // Get Tacnology
+    var appFeatured= $(this).attr('featured')
+    $('#portfolioModal').find(".my-featured").text(appFeatured);
+    // Get Dis
+    var appDis= $(this).attr('dis')
+    $('#portfolioModal').find(".modal-dis").text(appDis);
+    // Get Link
+    var gitHub= $(this).attr('gitHub');
+    $('#portfolioModal').find(".github_a").attr('href',gitHub);
+    var liveLink= $(this).attr('liveLink');
+    $('#portfolioModal').find(".liveLink_a").attr('href',liveLink);
+
+
+
+
+
+                dis
+                featured
+
+
+    modal-dis
+    my-featured
+    
+  })
 
 // 
 
