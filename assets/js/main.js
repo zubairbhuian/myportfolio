@@ -456,18 +456,6 @@
     $('#portfolioModal').find(".github_a").attr('href',gitHub);
     var liveLink= $(this).attr('liveLink');
     $('#portfolioModal').find(".liveLink_a").attr('href',liveLink);
-
-
-
-
-
-                dis
-                featured
-
-
-    modal-dis
-    my-featured
-    
   })
 
 // 
