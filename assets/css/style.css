@@ -20250,8 +20250,8 @@ body.white-version {
 }
 .my-featured .feature-item{
   background: var(--gradient-box-w);
-  padding: 8px 15px;
-  border-radius: 5px;
+  padding: 4px 15px;
+  border-radius: 20px;
   font-size: 13px;
   border: 1px solid var(--color-primary);
   color: var(--color-heading);
