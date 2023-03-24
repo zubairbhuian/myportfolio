@@ -439,6 +439,8 @@
     }  
 })
  $(".rn-portfolio").click(function(){
+    // Remove all child 
+    $('.my-featured').empty();
     // Get images
     var imgSrc= $(this).find("img").attr('src');
     $('#portfolioModal').find(".modal-img").attr("src", imgSrc);
@@ -450,7 +452,13 @@
     $('#portfolioModal').find(".title").text(appTitle);
     // Get Tacnology
     var appFeatured= $(this).attr('featured')
-    $('#portfolioModal').find(".my-featured").text(appFeatured);
+    var wordsFeatured = appFeatured.split(' '); 
+    for (var i = 0; i < wordsFeatured.length; i++) {
+    var word = wordsFeatured[i];
+    var newElement = $('<div>').text(word); // Create a new div element
+    newElement.addClass('feature-item');
+    $('#portfolioModal').find(".my-featured").append(newElement); 
+    }
     // Get Dis
     var appDis= $(this).attr('dis')
     $('#portfolioModal').find(".modal-dis").text(appDis);
