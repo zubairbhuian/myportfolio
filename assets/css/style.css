@@ -61,6 +61,7 @@
   --color-lightn: #c4cfde;
   --color-midgray: #878787;
   --color-light: #e4e6ea;
+  --head-sub:rgb(228, 228, 228);  
   --color-lighter: #ced0d4;
   --color-lightest: #f0f2f5;
   --color-border: #e6e6e6;
@@ -126,6 +127,7 @@
   --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
   --gradient-red-hover: linear-gradient(145deg, #ff014f, #d11414);
   --color-heading: #1e2125;
+  --head-sub:rgb(73, 73, 73);
 
 }
 [color-theme=blue] {
@@ -146,6 +148,7 @@
   --gradient-red-hover: linear-gradient(145deg, #448aff, #2979ff);
   --color-github: #171515; 
   --color-heading: #1e2125;
+  --head-sub:rgb(73, 73, 73);
 }
 * {
   box-sizing: border-box;
@@ -20256,5 +20259,60 @@ body.white-version {
   border: 1px solid var(--color-primary);
   color: var(--color-heading);
   box-shadow: var(--shadow);
+}
+.rn-header-grad img{
+
+  padding: 8px;
+  width: 155px;
+  height: 155px;
+}
+.rn-name{
+  margin-top: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.header-cus-area{
+  max-width: 550px;
+  text-align: justify;
+  margin-top: 48px;
+}
+.header-cus-area a,
+.header-cus-area span{
+ color: var( --head-sub);
+}
+.banner-inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.banner-inner h1{
+  font-family: var(--font-secondary);
+  font-size: 72px;
+  line-height: 0.9em;
+}
+@media only screen and (max-width: 1200px) {
+  .banner-inner h1{
+    font-family: var(--font-secondary);
+    font-size: 50px;
+    line-height: 0.9em;
+  }
+  .header-cus-area{
+    margin-top: 30px;
+    font-size: 18px;
+
+  }
+
+}
+@media only screen and (max-width: 767px) {
+  .banner-inner h1{
+    font-family: var(--font-secondary);
+    font-size: 38px;
+    line-height: 0.9em;
+  }
+
 }
 /*# sourceMappingURL=../maps/style.css.map */
