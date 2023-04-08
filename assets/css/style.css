@@ -20274,7 +20274,7 @@ body.white-version {
   margin-bottom: 0;
 }
 .header-cus-area{
-  max-width: 550px;
+  max-width: 750px;
   text-align: justify;
   margin-top: 48px;
 }
@@ -20293,6 +20293,7 @@ body.white-version {
   font-family: var(--font-secondary);
   font-size: 72px;
   line-height: 0.9em;
+  margin-top: 180px;
 }
 @media only screen and (max-width: 1200px) {
   .banner-inner h1{
