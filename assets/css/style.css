@@ -20293,13 +20293,14 @@ body.white-version {
   font-family: var(--font-secondary);
   font-size: 72px;
   line-height: 0.9em;
-  margin-top: 180px;
+  margin-top: 130px;
 }
 @media only screen and (max-width: 1200px) {
   .banner-inner h1{
     font-family: var(--font-secondary);
     font-size: 50px;
     line-height: 0.9em;
+    margin-top: 70px;
   }
   .header-cus-area{
     margin-top: 30px;
